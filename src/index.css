@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  position: sticky;
+  background-color: #e2e2e2;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000;
+  margin: 55px;
+}
+
+.header-button {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  align-self: center;
+  cursor: pointer;
+}
+
+
+/* CATS VIEW */
+
+.container {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cats {
+  display: flex;
+  flex-direction: column;
+  max-width: 640px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.cat-item {
+  object-fit: cover;
+  margin: 20px 0;
+  /*width: 640px;*/
+  /*height: 480px;*/
+}
+
+
+/* SIDE-BAR */
+
+.sidebar-container {
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  height: 100vh;
+  background-color: azure;
+  position: fixed;
+  top: 0;
+  left: -15vw;
+  transition: all 0.4s ease-in-out;
+}
+
+.sidebar-container.active {
+  left: 0
+}
+
+.sidebar-container-button {
+  background-color: azure;
+  cursor: pointer;
+  height: 5vh;
+  border: none;
+  border-bottom: 1px solid #000;
+  width: 100%;
+}
+
+.sidebar-toggler {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
